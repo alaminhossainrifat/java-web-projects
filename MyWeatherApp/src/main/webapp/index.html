@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <div class="container" style="color:white; text-align:center">
+        <form action="Myservlet" method="post" class="searchInput">
+
+            <div class="search-box">
+                <i class='bx bxs-map'></i>
+                <input type="text" placeholder="Enter Your Location" id="searchInput"  name="city">
+                <button id="searchButton" class="bx bx-search"></button>
+            </div>
+            <!-- <input type="text" placeholder="Enter City Name" id="searchInput"  name="city"/>
+            <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+      </form>
+        <img  class="image" src="images/cloud.png" style=" height:200px;width: auto;filter: drop-shadow(10px 10px 10px black);">
+        <h1>Welcome to the Weather Web Application</h1>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class='bx bx-water'></i>
+                    <div class="text">
+                        <div class="info-humidity">
+                            <span>0%</span>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+    
+                <div class="wind">
+                    <i class='bx bx-wind'></i>
+                    <div class="text">
+                        <div class="info-wind">
+                            <span>0Km/h</span>
+                        </div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+ 
+    <!-- <h2>Technologies Used: </h2> <p>HTML, CSS, JS, Java, Servlet, JSP, OpenWeather API</p> -->
+         
+    </div>
+ 
+</body>
+</html>
